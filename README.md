@@ -1,33 +1,12 @@
 # Warren Ipsum, the gem
 
-![Warren Ipsum](http://www.warrenipsum.com/wp-content/themes/boilerplate/images/warren.png "Warren Ipsum")
+This gem is based on [Warren Ipsum](https://github.com/vonconrad/warren_ipsum).
 
-This gem is based on [Warren Ipsum](http://www.warrenipsum.com), by the indomitable [Tom Bryan](http://www.tombryan.co).
+## Notes about this fork.
 
-## Installation
+This is a poorly maintained fork from the original gem solely for the purpose of having a more work-safe version of the data file.
 
-In your Gemfile:
+For all real things you should be looking at https://github.com/vonconrad/warren_ipsum
 
-```ruby
-gem 'warren_ipsum'
-```
+If you want to use this gem then its published as warren_ipsum_safe.
 
-Or in your terminal:
-
-```shell
-gem install warren_ipsum
-```
-
-## Usage
-
-```ruby
-require 'warren_ipsum'
-
-# Will generate one line.
-WarrenIpsum.generate
-# => "these young bucks have never seen a nuclear fucking winter."
-
-# Will combine three lines, separated by commas.
-WarrenIpsum.generate(:lines => 3)
-# => "I know you guys will find it tough without me but I know you have it in you to soldier on in my absence, embrace the cheese, I cry every time I think how much I paid for my first 1GB HDD."
-```

@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require 'warren_ipsum/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'warren_ipsum'
+  s.name        = 'warren_ipsum_safe'
   s.version     = WarrenIpsum::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Sebastian von Conrad', 'Tom Bryan']
-  s.email       = ['sebastian@vonconrad.com', 'hello@tombryan.co']
-  s.homepage    = 'http://github.com/vonconrad/warren_ipsum'
+  s.authors     = ['Sebastian von Conrad', 'Tom Bryan', 'nigelfds']
+  s.email       = ['sebastian@vonconrad.com', 'hello@tombryan.co', 'dev@nigel.in']
+  s.homepage    = 'https://github.com/nigelfds/warren_ipsum'
   s.summary     = %q{Warren is a sensible Rails developer with good hair}
   s.description = %q{One time at RailsCamp Warren stayed up until like 10pm going crazy sick on some code it was so fun OMG you should've been there just wild man}
   s.license     = 'MIT'
